@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exported Figma Design</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="frame-1-1">
+<div class="rectangle-1-2"></div>
+<div class="rectangle-2-3"></div>
+<img src="images/image-2-4.png" class="image-2-4" alt="image-2" />
+<div class="rectangle-3-5"></div>
+<div class="rectangle-4-6"></div>
+<img src="images/image-4-7.png" class="image-4-7" alt="image-4" />
+<img src="images/image-1-8.png" class="image-1-8" alt="image-1" />
+<p class="text-9"><span class="text-black">Yamaha R15 V4 is a sports bike available in 6
+variants and 8 colors. The Yamaha R15 V4 is
+powered by 155cc BS6 engine which develops
+a power of 18.1 bhp and a torque of 14.2 Nm. 
+With both front and rear disc brakes, Yamaha 
+R15 V4 comes up with anti-locking braking
+system. This R15 V4 bike weighs 141 kg and 
+has a fuel tank capacity of 11 liters.</span></p>
+<p class="text-10"><span class="text-black">The Yamaha R15 V4 is a sports bike available 
+at a price range of Rs. 1,84,459 - Rs. 2,11,589 </span></p>
+<p class="text-11"><span class="text-black">R15 V4</span></p>
+<p class="text-12"><span class="text-black">EMI starts from</span></p>
+<p class="text-13"><span class="text-black">Rs 5000/.</span></p>
+<div class="mdi-twitter-14">
+<img src="images/vector-15.svg" class="vector-15" alt="vector" />
+</div>
+<div class="rectangle-5-16"></div>
+<p class="text-17"><span class="text-black">Visit Website</span></p>
+<p class="text-18"><span class="text-black">@r15v4</span></p>
+</div>
+
+</body>
+</html>
+
+/* Add font files for Kurale */
+@font-face {
+  font-family: 'Kurale';
+  src: url('fonts/kurale.woff2') format('woff2'),
+       url('fonts/kurale.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add font files for Kelly Slab */
+@font-face {
+  font-family: 'Kelly Slab';
+  src: url('fonts/kelly-slab.woff2') format('woff2'),
+       url('fonts/kelly-slab.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-inter: 'Inter', sans-serif;
+  --font-family-kurale: 'Kurale', sans-serif;
+  --font-family-kelly-slab: 'Kelly Slab', sans-serif;
+  --text-black: rgba(0, 0, 0, 1);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rectangle-1-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.rectangle-2-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 140, 140, 1);
+}
+
+.image-2-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+
+.rectangle-3-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.rectangle-4-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 0, 1);
+}
+
+.image-4-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+
+.image-1-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.text-9 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-inter);
+  font-weight: Regular;
+  font-size: 11px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+}
+
+.text-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-inter);
+  font-weight: Regular;
+  font-size: 11px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+  font-family: var(--font-family-inter);
+  font-weight: Semi Bold;
+  font-size: 11px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+  font-family: var(--font-family-inter);
+  font-weight: Regular;
+  font-size: 11px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+}
+
+.text-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-kurale);
+  font-weight: Regular;
+  font-size: 32px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+}
+
+.text-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-kelly-slab);
+  font-weight: Regular;
+  font-size: 20px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+}
+
+.text-13 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-kelly-slab);
+  font-weight: Regular;
+  font-size: 20px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+}
+
+.vector-15 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(0, 0, 0, 1);
+  border: none;
+  outline: none;
+}
+
+.mdi-twitter-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.rectangle-5-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 246, 246, 1);
+  border-radius: 28px;
+}
+
+.text-17 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-kurale);
+  font-weight: Regular;
+  font-size: 15px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+}
+
+.text-18 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-inter);
+  font-weight: Semi Bold;
+  font-size: 12px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+  color: var(--text-black);
+}
+
+.frame-1-1 {
+@media (max-width: 1440px) {
+  .frame-1-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .frame-1-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
